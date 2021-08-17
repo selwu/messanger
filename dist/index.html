@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div>Hello!!!</div>
-    <div>Hello!!!</div>
+<head>
+    <meta charset="UTF-8">
+    <title>Список чатов</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        /**
+         * @typedef {Chat}
+         * @prop {string} title
+         * @prop {string} lastMessage
+         */
 
-    <div>Hello!!!</div>
-  </body>
+        const chats = [
+            {
+                title: 'kinopoisk',
+                lastMessage: 'Лучшие фильмы с Невским...',
+            },
+            {
+                title: 'abramov_fan',
+                lastMessage: 'New react features...',
+            },
+        ];
+
+        document.body.appendChild(makeChatsList(chats));
+				/*
+					<ul>
+						<li>...</li>
+						...
+					</ul>
+				*/
+    </script>
+</body>
 </html>
