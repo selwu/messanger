@@ -1,0 +1,25 @@
+{
+  "name": "messanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsconfig.js",
+  "scripts": {
+    "dev": "parcel src/pages/home/home.pug",
+    "build": "parcel build src/pages/home/home.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selwu/messanger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selwu/messanger/issues"
+  },
+  "homepage": "https://github.com/selwu/messanger#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2"
+  }
+}
