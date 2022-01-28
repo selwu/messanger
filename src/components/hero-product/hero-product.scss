@@ -1,0 +1,13 @@
+@import "../../constants-styles";
+
+.hero-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+ p {
+  color: $primary20;
+ }
+}
